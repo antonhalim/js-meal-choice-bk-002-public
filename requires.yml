@@ -1,0 +1,5 @@
+javascripts:
+  files:
+    - lib/mealChoice.js
+  specs:
+    - spec/mealChoice.spec.js

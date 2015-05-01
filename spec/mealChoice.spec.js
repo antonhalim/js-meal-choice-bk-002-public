@@ -2,21 +2,16 @@
 
 describe('mealChoice', function() {
 
-  var mealChoice;
-  beforeEach(function() {
-    mealChoice = require('../lib/mealChoice');
+  it('defaults to meat', function() {
+    expect(mealChoice()).toEqual('meat');
   });
 
-  describe('mealChoice', function() {
+  it('allows you to set vegan', function(){
+    expect(mealChoice('vegan')).toEqual('vegan');
+  });
 
-    it('defaults to meat', function() {
-      expect(mealChoice()).toEqual('meat');
-    });
-
-    it('allows you to set a meal', function(){
-      expect(mealChoice('vegan')).toEqual('vegan');
-    });
-
+  it('allows you to set gluten-free', function(){
+    expect(mealChoice('gluten-free')).toEqual('gluten-free');
   });
 
 });
