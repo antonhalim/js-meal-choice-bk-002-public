@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="3" errors="0" failures="0" time="0.008" timestamp="2015-05-04T13:56:11">
+		<testcase classname="mealChoice" name="defaults to meat" time="0.004">
+		</testcase>
+		<testcase classname="mealChoice" name="allows you to set vegan" time="0.001">
+		</testcase>
+		<testcase classname="mealChoice" name="allows you to set gluten-free" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
+
